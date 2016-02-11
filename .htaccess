@@ -1,0 +1,14 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+
+RewriteRule \.(css|jpe?g|gif|png|js|ico)$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(fr|en)/$ $1/home?lang=$1 [L]
+RewriteRule ^(fr|en)/index$ $1/home?lang=$1 [L]
+RewriteRule ^(fr|en)/(.*) pages/$2.php?lang=$1 [NC,QSA]
+
+#RewriteRule ^(fr|en)/$ $1/home [L]
+#RewriteRule ^(fr|en)/index$ $1/home [L]
+#RewriteRule ^(fr|en)/(.*) pages/$2.php [NC,QSA]
