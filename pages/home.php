@@ -57,7 +57,7 @@ include "header.php"
 		<!-- Two -->
 			<section id="two" class="wrapper style2">
 				<header class="major">
-					<h2>User Friendly Dashboard</h2>
+					<h2><?=TXT_SECTION_TWO_HEADER_TITLE?></h2>
 <!--
 					<p>Amet nisi nunc lorem accumsan</p>
 -->
@@ -67,10 +67,10 @@ include "header.php"
 						<div class="6u">
 							<section class="special">
 								<!--<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>-->
-								<h3>Mollis adipiscing nisl</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
+								<h3><?=TXT_SECTION_TWO_DIV_ONE_TITLE?></h3>
+								<p><?=TXT_SECTION_TWO_DIV_ONE_P?></p>
 								<ul class="actions">
-									<li><a href="#" class="button big special">Learn More</a></li>
+									<li><a href="#" class="button special"><?=BTN_LEARN_MORE?></a></li>
 								</ul>
 							</section>
 						</div>
@@ -101,17 +101,17 @@ include "header.php"
 					<div class="row">
 						<div class="6u">
 							<section>
-								<h2>Mollis ut adipiscing</h2>
+								<h2><?=TXT_SECTION_THREE_HEADER_TITLE?></h2>
 								<a href="#" class="image fit"><img src="images/lan-screen3.png" alt="" /></a>
 							</section>
 						</div>
 						<div class="6u">
 							<section>
 								</br></br></br>
-								<h3>Magna massa blandit</h3>
-								<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
+								<h3><?=TXT_SECTION_THREE_DIV_ONE_TITLE?></h3>
+								<p><?=TXT_SECTION_THREE_DIV_ONE_P?></p>
 								<ul class="actions">
-									<li><a href="#" class="button big special">Learn More</a></li>
+									<li><a href="#" class="button special"><?=BTN_LEARN_MORE?></a></li>
 								</ul>
 							</section>
 							<!--<hr />

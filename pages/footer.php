@@ -9,8 +9,6 @@
 							<ul class="alt">
 								<li><a href="#">Nascetur nunc varius</a></li>
 								<li><a href="#">Vis faucibus sed tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel</a></li>
-								<li><a href="#">Nascetur nunc varius</a></li>
 							</ul>
 						</div>
 						<div class="6u">
@@ -18,15 +16,12 @@
 							<ul class="alt">
 								<li><a href="#">Nascetur nunc varius</a></li>
 								<li><a href="#">Vis faucibus sed tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel</a></li>
-								<li><a href="#">Nascetur nunc varius</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="6u">
-					<h2>Aliquam Interdum</h2>
-					<p>Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
+					<h2><?=TXT_FOOTER_FOLLOWUS?></h2>
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -37,9 +32,10 @@
 				</div>
 			</div>
 			<ul class="copyright">
-				<li>&copy; Untitled. All rights reserved.</li>
+				<li>2015 &copy; Navel-IT.  All rights reserved.</li>
+				<li><a href=""><?=TXT_FOOTER_TOU?></a></li>
+				<li><a href=""><?=TXT_FOOTER_PP?></a></li>
 				<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-				<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 			</ul>
 		</div>
 	</footer>
