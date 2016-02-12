@@ -3,30 +3,26 @@ include "header.php"
 ?>
 	<body id="top">
 		<!-- Banner -->
-			<section id="banner">
-				
+			<section id="banner">				
 				<div class="inner">
-<!--				
-					<h2 style="font-family:UnDinaru;font-size:60px;font-weight: bold;">navel-it</h2>
--->
-					<!--<p><b style="color:white;">An Open Source Data Agregator</b></p>-->
-					<?php echo '<p style="font-size: 40px;">'.TXT_HEADER_TITLE.'</p>' ?>
+					<p style="font-size: 40px;"><?=TXT_HEADER_TITLE?></p>
 					<ul class="actions">
-						<li><a href="#content" class="button big special">try the Demo</a></li>
-						<!--<li><a href="#elements" class="button big alt">Learn More</a></li>-->
+						<li><a href="http://confluence.navel-it.fr" class="button special">Demo</a></li>
+<!--
+						<li><a href="#elements" class="button big alt">Learn More</a></li>
+-->
 					</ul>
-					
-				
 				</div>
-				<div style='position: absolute;top:-10px;opacity:0.15;width: 100%;height:100px;z-index:-1;'><center><img height="800px" src="images/icone_navel_new2_blanc.png" /></div>
-			</section></center>
-			
+				<div style='position: absolute;top:-10px;opacity:0.15;width: 100%;height:100px;'>
+					<img height="800px" src="images/icone_navel_new2_blanc.png" />
+				</div>
+			</section>		
 
 		<!-- One -->
 			<section id="one" class="wrapper style1">
 				<header class="major">
-					<h2>The beginning of a new eraaaaaaaaaaaaaaa</h2>
-					<p>Reducing your service costs and Increasing customer satisfaction.</p>
+					<h2><?=TXT_SECTION_ONE_HEADER_TITLE?></h2>
+					<p><?=TXT_SECTION_ONE_HEADER_P?></p>
 				</header>
 				<div class="container">
 					<div class="row">
@@ -34,36 +30,30 @@ include "header.php"
 							<section class="special box">
 								<!--<i class="icon fa-area-chart major"></i>-->
 								<img src="images/f_deploy00.png" alt="" width="200px" />
-								<h3>centralize</h3>
-								<p>Centralize multi-source data and Access it from a single entry point.</p>
+								<h3><?=TXT_SECTION_ONE_DIV_ONE_TITLE?></h3>
+								<p><?=TXT_SECTION_ONE_DIV_ONE_P?></p>
 							</section>
 						</div>
 						<div class="4u">
 							<section class="special box">
 								<!--<i class="icon fa-refresh major"></i>-->
 								<img src="images/f_build00.png" alt="" width="200px" />
-								<h3>Organize</h3>
-								<p>Data are automatically correlate between itself.</p>
+								<h3><?=TXT_SECTION_ONE_DIV_TWO_TITLE?></h3>
+								<p><?=TXT_SECTION_ONE_DIV_TWO_P?></p>
 							</section>
 						</div>
 						<div class="4u">
 							<section class="special box">
 								<!--<i class="icon fa-cog major"></i>-->
 								<img src="images/f_manage00.png" alt="" width="200px" />
-								<h3>Manage</h3>
-								<p>Control the activity of your Information System.</p>
+								<h3><?=TXT_SECTION_ONE_DIV_THREE_TITLE?></h3>
+								<p><?=TXT_SECTION_ONE_DIV_THREE_P?></p>
 							</section>
 						</div>
 					</div>
 				</div>
 			</section>
-			
-			
-			
-			
-			
-			
-			
+		
 		<!-- Two -->
 			<section id="two" class="wrapper style2">
 				<header class="major">
@@ -106,7 +96,7 @@ include "header.php"
 
 
 		<!-- Three -->
-			<section id="three" class="wrapper style1">
+			<section id="three" class="wrapper style3">
 				<div class="container">
 					<div class="row">
 						<div class="6u">
