@@ -8,7 +8,7 @@ include "config.php"
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<base href="//127.0.0.1/" />
+<base href="//unstable.navel-it.fr/" />
 <html>
 	<head>
 		<title>Navel-IT</title>
