@@ -25,7 +25,7 @@ include "header.php"
 		<!-- One -->
 			<section id="one" class="wrapper style1">
 				<header class="major">
-					<h2>The beginning of a new era</h2>
+					<h2>The beginning of a new eraaaaaaaaaaaaaaa</h2>
 					<p>Reducing your service costs and Increasing customer satisfaction.</p>
 				</header>
 				<div class="container">
