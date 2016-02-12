@@ -33,7 +33,7 @@ include "config.php"
 			<header id="header" class="skel-layers-fixed">
 				<h1 >
 					<?php echo '<a href="'.$lang.'/home" >' ?>
-				<img src="images/icone_navel_new2_blanc.png" style="margin: 5px 0 0 0;" alt="" height="35px" />
+				<img src="images/icone_navel_new2_blanc.png" style="margin: 5px 0 0 0;" alt="" height="65px" />
 				<img src="images/icone_navel_name2.png" style="margin: 5px 0 0 0;" alt="" height="35px" />
 				</a></h1>
 				
